@@ -1,0 +1,22 @@
+.person-name {
+    font-size: 24px;
+    color: #f7f5f5;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 50vw;
+  }
+  
+  /* Optional: Style individual names differently */
+  .person-name:nth-child(odd) {
+    background-color: #0e19b4;
+  }
+  
+  .person-name:nth-child(even) {
+    background-color: rgb(187, 76, 76);
+  }
+  .person-name ul li{
+    list-style-type: none;
+  }
+.email{
+    font-size:15px;
+}
